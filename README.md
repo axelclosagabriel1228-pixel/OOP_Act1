@@ -32,7 +32,7 @@ A Java console-based application that manages canteen menu orders, validates inp
 ## 🖥️ Sample Output
 
 ```text
-Sample Output
+
 =====   M E N U   =====
 1. Burger      - $80.00
 2. Pizza       - $120.00
