@@ -23,6 +23,16 @@ A Java console application activity in OOP designed to process customer orders f
 
 ---
 
+# Canteen Ordering System
+
+A Java console-based application that manages canteen menu orders, validates inputs, applies student and bulk discounts, and computes total order summaries.
+
+---
+
+## 🖥️ Sample Output
+
+```text
+Sample Output
 =====   M E N U   =====
 1. Burger      - $80.00
 2. Pizza       - $120.00
@@ -32,17 +42,34 @@ A Java console application activity in OOP designed to process customer orders f
 
 Enter item number: 2
 Enter quantity: 3
-Are you a student? (Y/N): 
+Are you a student? (Y/N): Y
 
 Subtotal: $360.00
 Discount: $36.00
 Order total: $324.00
 
+Do you want to order again? (Y/N): Y
+
+Enter item number: 6
+Enter quantity: 2
+
+Invalid order! Please enter a valid item and quantity.
+
+Do you want to order again? (Y/N): Y
+
+Enter item number: 1
+Enter quantity: 7
+Are you a student? (Y/N): Y
+
+Subtotal: $560.00
+Discount: $84.00
+Order total: $476.00
+
 Do you want to order again? (Y/N): N
 
 ===== ORDER SUMMARY =====
-Total items: 3
-Total before discount: $360.00
-Total discount: $36.00
-Final amount: $324.00
+Total items: 10
+Total before discount: $920.00
+Total discount: $120.00
+Final amount: $800.00
 Thank you for ordering!
