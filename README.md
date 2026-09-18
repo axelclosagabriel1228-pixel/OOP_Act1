@@ -32,7 +32,7 @@ A Java console application activity in OOP designed to process customer orders f
 
 Enter item number: 2
 Enter quantity: 3
-Are you a student? (Y/N): Y
+Are you a student? (Y/N): 
 
 Subtotal: $360.00
 Discount: $36.00
